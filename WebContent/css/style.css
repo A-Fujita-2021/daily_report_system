@@ -47,7 +47,7 @@ a {
 }
 
 table,tr,th,td{
-    border: 1px solid #cceecc;
+    border: 1px solid #cce7e1;
 }
 
 table {
@@ -92,4 +92,26 @@ button {
     margin-bottom: 15px;
     color: #721c24;
     background-color: #f8d7da;
+}
+
+table#employee_list th{
+    width: 30%;
+    padding: 10px 2%;
+}
+
+table#employee_list td{
+    width: 29%;
+    padding: 10px 2%;
+}
+
+tr.row1{
+    background-color: #f1f9f9;
+}
+
+tr.row0{
+    background-color: #ffffff;
+}
+
+select {
+    height: 30px;
 }

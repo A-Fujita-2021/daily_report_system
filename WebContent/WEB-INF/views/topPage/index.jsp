@@ -11,7 +11,7 @@
 
         <h2>日報管理システムへようこそ！</h2>
 
-        <h3>【あなたの日報  一覧】</h3>
+        <h3>【 ${sessionScope.login_employee.name} さんの日報  一覧】</h3>
         <table id = "report_list">
             <tbody>
                 <tr>

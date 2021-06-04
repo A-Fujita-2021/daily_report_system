@@ -43,7 +43,7 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="<c:url value='/reports/new' /> ">日報を作成</a></p>
+        <p><a href="<c:url value='/reports/new' /> ">新規日報を作成</a></p>
 
     </c:param>
 </c:import>

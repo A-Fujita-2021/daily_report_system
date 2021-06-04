@@ -7,7 +7,7 @@ body {
 
 #header {
     width: 100%;
-    height: 90px;
+    height: 72px;
     background-color: #d6faef
 }
 
@@ -18,12 +18,8 @@ body {
 }
 
 h1 {
-    width: 94%;
-    padding-top: 12px;
-    padding-left: 3%;
-    font-size: 28px;
-    color: #529999;
-    font-weight: 700;
+    font-size: 24px;
+    display: inline;
 }
 
 h2 {
@@ -42,7 +38,7 @@ p {
 }
 
 a {
-    text-decoration: none;
+
     color: #24778e;
 }
 
@@ -114,4 +110,27 @@ tr.row0{
 
 select {
     height: 30px;
+}
+
+#header_menu{
+    width: 57%;
+    padding-top: 30px;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+#employee_name{
+    color: #529999;
+    width: 36%;
+    padding-right: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+#header a{
+    color: #24778e;
+}
+
+h1 a{
+    text-decoration: none;
 }
